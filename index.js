@@ -2,7 +2,7 @@
 const http = require("http");
 
 //define a porta para acesso à aplicação
-const PORT = process.env.PORT || 8000
+const PORT = process.env.PORT || 8080
 
 const server = http.createServer((req, res) => {
   res.writeHead(200, {
